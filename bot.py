@@ -350,7 +350,7 @@ class TeenMavenBot(commands.Bot):
     async def on_ready(self):
         logger.info(f"Logged in as {self.user} ({self.user.id})")
         await self.change_presence(activity=discord.Activity(
-            type=discord.ActivityType.watching, name="Teen Maven Ranks"))
+            type=discord.ActivityType.watching, name="pls help me im under the water 😭"))
 
     async def on_member_join(self, member: discord.Member):
         pass

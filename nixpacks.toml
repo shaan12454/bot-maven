@@ -3,7 +3,7 @@ nixPkgs = ["python311Full", "python311Packages.pip", "ffmpeg"]
 
 [phases.install]
 cmds = [
-  "python3.11 -m ensurepip --upgrade",
+
   "python3.11 -m pip install --break-system-packages --upgrade pip",
   "python3.11 -m pip install --break-system-packages -r requirements.txt"
 ]
